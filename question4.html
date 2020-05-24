@@ -4,15 +4,9 @@
         </title>
         <script>type= "text/javascipt"
                 var char = prompt("enter value");
-                var bool = Boolean(prompt("enter boolean number"))
+                var bool = Boolean(prompt("enter boolean value"))
                 document.write("string to number is: "+parseInt(char)+"<br />")
-                if(bool ==false){
-                    bool = 0
-                    document.write("boolean to number is: "+bool+"<br />")
-                }else if(bool == true){
-                    bool=1
-                    document.write("boolean to number is: "+bool)
-                }
+                    document.write("boolean to number is: "+Number(bool)
                 
         </script>
     </head>
